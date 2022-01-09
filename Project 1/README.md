@@ -21,6 +21,13 @@ notebook            6.4.6<br/>
 
 ### Project Motivation
 
+Project above is an asignment project for Data Science Nanodegree on uDacity. The main idea of this project is to learn foundations of data science and communicating with stakeholders. 
+
+The three business questions asked here are: <br/>
+1. What are the busiest times of the year to visit Boston? By how much do prices spike?<br/>
+2. Which Neibourhood is most expensive and what kind of listings are there in majority<br/>
+3. Which params of listings impacts the most on the price?<br/>
+
 ### File Descriptions
 
 ### Interactions
