@@ -1,7 +1,13 @@
 # BOSTON AIRBNB 2016-09 - 2017-09
 
+# Table of contents
+1. [Installation](#introduction)
+2. [Project Motivation](#paragraph1)
+3. [File Descriptions](#paragraph2)
+3. [Interaction](#paragraph3)
+3. [Author](#paragraph4)
 
-### Installation
+### Installation <a name="introduction"></a>
 
 **Libraries:**<br/>
 matplotlib  3.5.1<br/>
@@ -19,7 +25,7 @@ jupyter_core        4.9.1<br/>
 jupyterlab          3.2.1<br/>
 notebook            6.4.6<br/>
 
-### Project Motivation
+### Project Motivation <a name="paragraph1"></a>
 
 The project above is an assignment project for Data Science Nanodegree on uDacity. The main idea of this project is to learn the foundations of data science and communicating with stakeholders. 
 
@@ -28,17 +34,17 @@ The three business questions asked here are: <br/>
 2. Which Neighborhood is most expensive and what kind of listings are there in majority<br/>
 3. Which params of listings impact the most on the price?<br/>
 
-### File Descriptions
+### File Descriptions <a name="paragraph2"></a>
 
 Boston Airbnb Open Data.ipynb - main Jupyter Notebook<br/>
 csv files - data sources<br/>
 
-### Interaction
+### Interaction <a name="paragraph3"></a>
 
 Project is mainly an outcome for a review and doesn't need to be edited for the future purposes. 
 The description of the results are on this medium post - https://medium.com/@DataThinker/what-impacts-on-listing-prices-on-airbnb-in-boston-ab868e246ca1.
 
-### Author
+### Author <a name="paragraph4"></a>
 
 Maciej Gieparda
 
