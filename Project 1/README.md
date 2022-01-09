@@ -21,25 +21,24 @@ notebook            6.4.6<br/>
 
 ### Project Motivation
 
-Project above is an asignment project for Data Science Nanodegree on uDacity. The main idea of this project is to learn foundations of data science and communicating with stakeholders. 
+The project above is an assignment project for Data Science Nanodegree on uDacity. The main idea of this project is to learn the foundations of data science and communicating with stakeholders. 
 
 The three business questions asked here are: <br/>
 1. What are the busiest times of the year to visit Boston? By how much do prices spike?<br/>
-2. Which Neibourhood is most expensive and what kind of listings are there in majority<br/>
-3. Which params of listings impacts the most on the price?<br/>
+2. Which Neighborhood is most expensive and what kind of listings are there in majority<br/>
+3. Which params of listings impact the most on the price?<br/>
 
 ### File Descriptions
 
-### Interactions
+Boston Airbnb Open Data.ipynb - main Jupyter Notebook<br/>
+csv files - data sources<br/>
+
+### Interaction
+
+Project is mainly an outcome for a review and doesn't need to be edited for the future purposes. Description of the results are on medium post.
 
 ### Author
 
+Maciej Gieparda
 
-Isn't today a **wonderful** day?
-
-And in that moment I thought to myself: _Did I turn off the stove?_
-
-You should use the `strong` tag.
-
-test
-1
+##### Credits to uDacity for giving an intro to the topic, and of course - stackoverflow :D
