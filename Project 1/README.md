@@ -35,7 +35,8 @@ csv files - data sources<br/>
 
 ### Interaction
 
-Project is mainly an outcome for a review and doesn't need to be edited for the future purposes. Description of the results are on medium post.
+Project is mainly an outcome for a review and doesn't need to be edited for the future purposes. 
+The description of the results are on this medium post - https://medium.com/@DataThinker/what-impacts-on-listing-prices-on-airbnb-in-boston-ab868e246ca1.
 
 ### Author
 
