@@ -4,13 +4,13 @@
 ### Installation
 
 **Libraries:**
-matplotlib  3.5.1
-numpy       1.21.5
-pandas      1.3.5
-scipy       1.7.3
-seaborn     0.11.2
-sinfo       0.3.4
-sklearn     1.0.2
+matplotlib  3.5.1. 
+numpy       1.21.5. 
+pandas      1.3.5. 
+scipy       1.7.3. 
+seaborn     0.11.2. 
+sinfo       0.3.4  
+sklearn     1.0.2. 
 
 **Tools:**
 IPython             7.29.0
