@@ -2,13 +2,13 @@
 
 ### Summary
 
-This Project is part of Data Science Nanodegree Program by Udacity. The initial dataset contains pre-labelled tweet and messages from real-life disaster. The aim of the project is to build a Natural Language Processing tool that categorize messages.
+This Project is the second part of Data Science Nanodegree Program by Udacity. The initial dataset contains pre-labelled tweet and messages from disasters. The aim of the project is to build a Natural Language Processing tool that categorize messages and sum them up.
 
 The Project is divided in the following Sections:
 
-Data Processing, ETL Pipeline to extract data from source, clean data and save them in a proper databse structure
-Machine Learning Pipeline to train a model able to classify text message in categories
-Web App to show model results in real time.
+- Data Processing, ETL Pipeline to extract data from source, clean data and save them in a proper databse structure
+- Machine Learning Pipeline to train a model able to classify text message in categories
+- Web App to show model results in real time.
 
 
 ### Instructions:
@@ -31,7 +31,7 @@ app:
     - master.html # main page of web app
     - go.html # classification result page of web app
 - run.py # Flask file that runs app
-- 
+
 data:
 - disaster_categories.csv # data to process
 - disaster_messages.csv # data to process
