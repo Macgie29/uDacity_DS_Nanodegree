@@ -74,6 +74,9 @@ def tokenize(text):
 
 
 def build_model():
+    """
+    Model pipeline
+    """
     pipeline = Pipeline([
         ('vect', CountVectorizer(tokenizer = tokenize)),
         ('tfidf', TfidfTransformer()),
@@ -90,6 +93,9 @@ def build_model():
 
 
 def evaluate_model(model, X_test, Y_test, category_names):
+    """
+    Model evalueation
+    """
     y_pred = model.predict(X_test)
     print(classification_report(Y_test, y_pred, target_names=category_names))
     for  idx, cat in enumerate(Y_test.columns.values):
@@ -99,6 +105,11 @@ def evaluate_model(model, X_test, Y_test, category_names):
 
 
 def save_model(model, model_filepath):
+    """
+    Saves model to sav file
+    Input:
+    - Model and filepath
+    """
     filename = 'classifier.sav'
     pickle.dump(model, open(filename, 'wb'))
 

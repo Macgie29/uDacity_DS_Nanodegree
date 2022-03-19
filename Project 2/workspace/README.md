@@ -2,7 +2,9 @@
 
 ### Summary
 
-This Project is part of Data Science Nanodegree Program by Udacity. The initial dataset contains pre-labelled tweet and messages from real-life disaster. The aim of the project is to build a Natural Language Processing tool that categorize messages.
+This Project is part of Data Science Nanodegree Program by Udacity. The initial dataset contains pre-labelled tweet and messages from real-life disaster. The aim of the project is to build a Natural Language Processing tool that categorize messages. It allows people/organisations to find sources of messages - where are they comming from: News, media, social etc. and also allows to see the categories of comming messages - what are they main topic.
+
+
 
 The Project is divided in the following Sections:
 
