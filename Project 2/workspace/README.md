@@ -25,18 +25,22 @@ Web App to show model results in real time.
 3. Go to http://0.0.0.0:3001/
 
 ### Files
-app
-| - template
-| |- master.html # main page of web app
-| |- go.html # classification result page of web app
-|- run.py # Flask file that runs app
-data
-|- disaster_categories.csv # data to process
-|- disaster_messages.csv # data to process
-|- process_data.py
-|- DisasterResponse.db # database to save clean data to
-models
-|- train_classifier.py
+
+app:
+- template
+    - master.html # main page of web app
+    - go.html # classification result page of web app
+- run.py # Flask file that runs app
+- 
+data:
+- disaster_categories.csv # data to process
+- disaster_messages.csv # data to process
+- process_data.py
+- DisasterResponse.db # database to save clean data to
+
+models:
+- train_classifier.py
+
 ETL Pipeline Preparation.ipynb # Jupyter Notebook for ETL
 ML Pipeline Preparation.ipynb # Jupyter Notebook for ML Pipeline
 classifier.sav # saved model
