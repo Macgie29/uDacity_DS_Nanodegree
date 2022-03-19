@@ -61,13 +61,14 @@ def tokenize(text):
     stop_words = stopwords.words("english")
     
     #tokenize
-    words = word_tokenize(text)
+    #words = word_tokenize(text)
     
     #stemming
-    stemmed = [PorterStemmer().stem(w) for w in words]
+    #stemmed = [PorterStemmer().stem(w) for w in words]
     
     #lemmatizing
-    words_lemmed = [WordNetLemmatizer().lemmatize(w) for w in stemmed if w not in stop_words]
+    #words_lemmed = [WordNetLemmatizer().lemmatize(w) for w in stemmed if w not in stop_words]
+    words_lemmed = [WordNetLemmatizer().lemmatize(w) for w in stop_words]
     
     return words_lemmed
 
@@ -98,7 +99,7 @@ def evaluate_model(model, X_test, Y_test, category_names):
 
 
 def save_model(model, model_filepath):
-    filename = 'classifier.plk'
+    filename = 'classifier.sav'
     pickle.dump(model, open(filename, 'wb'))
 
 
