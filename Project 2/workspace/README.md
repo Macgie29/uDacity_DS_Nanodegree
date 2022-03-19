@@ -41,7 +41,8 @@ data:
 models:
 - train_classifier.py
 
-ETL Pipeline Preparation.ipynb # Jupyter Notebook for ETL
-ML Pipeline Preparation.ipynb # Jupyter Notebook for ML Pipeline
-classifier.sav # saved model
-README.md
+up:
+- ETL Pipeline Preparation.ipynb # Jupyter Notebook for ETL
+- ML Pipeline Preparation.ipynb # Jupyter Notebook for ML Pipeline
+- classifier.sav # saved model
+- README.md
