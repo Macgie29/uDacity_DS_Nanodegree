@@ -9,6 +9,7 @@ def load_data(messages_filepath, categories_filepath):
     Needs:
     - XYZ_filepath - filepaths to message cvs and category csv
     """
+    
     messages = pd.read_csv(messages_filepath)
     categories = pd.read_csv(categories_filepath)
     df = messages.merge(categories, how='inner', on='id')
@@ -22,6 +23,7 @@ def clean_data(df):
     - cleaning column names
     - drops duplicates
     """
+    
     categories = df['categories'].str.split (pat = ';', expand = True)
     row = categories.iloc[0]
     category_colnames = row.apply(lambda x: x.rstrip ('- 0 1'))
@@ -50,6 +52,7 @@ def save_data(df, database_filename):
     Output:
     - Database
     """
+    
     engine = create_engine('sqlite:///DisasterResponse.db')
     df.to_sql('Message', engine, index=False, if_exists='replace')
     pass
