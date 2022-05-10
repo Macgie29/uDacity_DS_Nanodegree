@@ -44,7 +44,7 @@ portfolio, profile, transcript (json files) - data sources<br/>
 ### Interaction <a name="paragraph3"></a>
 
 Project is mainly an outcome for a review and doesn't need to be edited for the future purposes. 
-The description of the results are on this medium post - TBD
+The description of the results are on this medium post - https://medium.com/@DataThinker/which-factor-makes-starbucks-offers-succesful-31aa82e9449a
 
 ### Author <a name="paragraph4"></a>
 
